@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Card</title>
+    <style>
+        :root{
+            --color:rgb(87, 77, 77);
+            --bgcolor:rgb(181, 181, 236);
+        }
+        .box {
+            height: 75vh;
+            width: 350px;
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+            background-color: aliceblue;
+        }
+
+        .img img {
+            border-radius: 20px;
+        }
+
+        .img {
+            text-align: center;
+            margin-bottom: 10px;
+            /* margin-left: 6px; */
+        }
+
+        .cap span {
+            margin: 10px;
+            margin-left: 0px;
+            padding: 2px 5px;
+            border: 1px solid gray;
+            border-radius: 20px;
+            color: var(--color);
+        }
+
+        .cap {
+            padding: 10px;
+        }
+
+        .content {
+            text-align: center;
+            font-family: "Protest Revolution", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+        .but {
+            text-align: center;
+        }
+
+        .but button {
+            margin-top: 30px;
+            padding: 15 7px;
+            border-radius: 20px;
+            color: var(--color);
+            background-color: var(--bgcolor);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="img"><img src="img.webp" alt="nature" width="300px"></div>
+        <div class="cap"><span>Nature</span>
+            <span>Beauty</span>
+        </div>
+        <div class="heading">
+            <h1>Weather</h1>
+        </div>
+        <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolor eligendi exercitationem
+            quam. Consectetur officia facere earum laborum eius! Dolorem.</div>
+        <div class="but"><button>Read More</button></div>
+    </div>
+
+</body>
+
+</html>
