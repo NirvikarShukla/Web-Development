@@ -1,0 +1,77 @@
+.flex{
+    display: flex;
+}
+.img{
+    filter: invert(1);
+    height: 23px;
+    width: 23px;
+    padding:5px;
+    margin-left: 18px;
+    margin-top: 13px;
+    list-style: none;
+}
+.t1{
+    font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: rgba(240, 248, 255, 0.603);
+  padding-top: 22px;
+  padding-left: 10px;
+}
+.card_img{
+    height: 150px;
+    width: 150px;
+}
+.card_img img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    border-radius: 130px;
+    /* object-fit: contain; */
+    
+}
+.header{
+    color: rgb(247, 239, 229);
+    font-size: small;
+    font-weight: lighter;
+    padding-left: 23px;
+    padding-top: 28px;
+    padding-bottom: 25px;
+}
+.card{
+    padding-left: 23px;
+    position: relative;
+    
+}
+.artist_name{
+    color: rgb(235, 230, 226);
+    font-size:15px;
+    padding-top: 10px;
+    
+}
+.artist{
+    color: rgb(128, 126, 126);
+    font-size: 13px;
+    padding-top: 5px;
+}
+.play_button{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #1ed760;
+    padding-left: 9px;
+    padding-top: 9px;
+    border-radius: 35px;
+    bottom: 55px;
+    left: 115px;
+}
+.play_button button{
+    position: absolute;
+    height: 15px;
+    width: 25px;
+    background-color: #1ed760;
+    border: 0;
+    margin-left: 4px;
+    margin-top: 3px;
+}
