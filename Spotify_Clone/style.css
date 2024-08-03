@@ -86,3 +86,7 @@ body {
     top: 0;
     z-index: 0;
 }
+.cards{
+    overflow: auto;
+    width: 100%;
+}
