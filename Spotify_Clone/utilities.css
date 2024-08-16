@@ -1,59 +1,55 @@
 /* Custom Scrollbar for Dark Theme */
 ::-webkit-scrollbar {
-    width: 8px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #1e1e1e; /* Dark background for the track */
+  background: #1e1e1e; /* Dark background for the track */
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #555; /* Darker thumb color */
-    border-radius: 10px;
-    border: 2px solid #1e1e1e; /* Matches the track background */
+  background-color: #555; /* Darker thumb color */
+  border-radius: 10px;
+  border: 2px solid #1e1e1e; /* Matches the track background */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #888; /* Lighter thumb color on hover */
+  background-color: #888; /* Lighter thumb color on hover */
 }
-
-
-
 
 /* Custom Horizontal Scrollbar for Dark Theme */
 ::-webkit-scrollbar {
-    height: 8px; /* Reduced height for horizontal scrollbar */
+  height: 8px; /* Reduced height for horizontal scrollbar */
 }
 
 ::-webkit-scrollbar-track {
-    background: #1e1e1e; /* Dark background for the track */
+  background: #1e1e1e; /* Dark background for the track */
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #555; /* Darker thumb color */
-    border-radius: 10px;
-    border: 2px solid #1e1e1e; /* Matches the track background, reduced border width */
+  background-color: #555; /* Darker thumb color */
+  border-radius: 10px;
+  border: 2px solid #1e1e1e; /* Matches the track background, reduced border width */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #888; /* Lighter thumb color on hover */
+  background-color: #888; /* Lighter thumb color on hover */
 }
 
-
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
-.img{
-    filter: invert(1);
-    height: 23px;
-    width: 23px;
-    padding:5px;
-    margin-left: 18px;
-    margin-top: 13px;
-    list-style: none;
+.img {
+  filter: invert(1);
+  height: 23px;
+  width: 23px;
+  padding: 5px;
+  margin-left: 18px;
+  margin-top: 13px;
+  list-style: none;
 }
-.t1{
-    font-family: "Rubik", sans-serif;
+.t1 {
+  font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
@@ -61,59 +57,56 @@
   padding-top: 22px;
   padding-left: 10px;
 }
-.card_img{
-    height: 150px;
-    width: 150px;
+.card_img {
+  height: 150px;
+  width: 150px;
 }
-.card_img img{
-    object-fit: fill;
-    width: 100%;
-    height: 100%;
-    border-radius: 130px;
-    /* object-fit: contain; */
-    
+.card_img img {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  border-radius: 130px;
+  /* object-fit: contain; */
 }
-.header{
-    color: rgb(247, 239, 229);
-    font-size: small;
-    font-weight: lighter;
-    padding-left: 23px;
-    padding-top: 28px;
-    padding-bottom: 25px;
+.header {
+  color: rgb(247, 239, 229);
+  font-size: small;
+  font-weight: lighter;
+  padding-left: 23px;
+  padding-top: 28px;
+  padding-bottom: 25px;
 }
-.card{
-    padding-left: 23px;
-    position: relative;
-    
+.card {
+  padding-left: 23px;
+  position: relative;
 }
-.artist_name{
-    color: rgb(235, 230, 226);
-    font-size:15px;
-    padding-top: 10px;
-    
+.artist_name {
+  color: rgb(235, 230, 226);
+  font-size: 15px;
+  padding-top: 10px;
 }
-.artist{
-    color: rgb(128, 126, 126);
-    font-size: 13px;
-    padding-top: 5px;
+.artist {
+  color: rgb(128, 126, 126);
+  font-size: 13px;
+  padding-top: 5px;
 }
-.play_button{
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    background-color: #1ed760;
-    padding-left: 9px;
-    padding-top: 9px;
-    border-radius: 35px;
-    bottom: 55px;
-    left: 115px;
+.play_button {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #1ed760;
+  padding-left: 9px;
+  padding-top: 9px;
+  border-radius: 35px;
+  bottom: 55px;
+  left: 115px;
 }
-.play_button button{
-    position: absolute;
-    height: 15px;
-    width: 25px;
-    background-color: #1ed760;
-    border: 0;
-    margin-left: 4px;
-    margin-top: 3px;
+.play_button button {
+  position: absolute;
+  height: 15px;
+  width: 25px;
+  background-color: #1ed760;
+  border: 0;
+  margin-left: 4px;
+  margin-top: 3px;
 }

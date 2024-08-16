@@ -5,11 +5,11 @@
   padding: 0;
 }
 body {
-    background-color: rgb(0, 0, 0);
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+  background-color: rgb(0, 0, 0);
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 .left {
   margin-top: 7px;
@@ -33,8 +33,49 @@ body {
   margin-right: 7px;
   margin-bottom: 7px;
   border-radius: 8px;
-  
 }
+.CreatePlaylist {
+  background-color: #2a2a2a94;
+  color: azure;
+  padding: 18px;
+  margin: 9px;
+  margin-top: 35px;
+  border-radius: 6px;
+}
+.CreatePlaylist h4 {
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+.CreatePlaylist h5 {
+  margin-bottom: 22px;
+  font-weight: 400;
+}
+.createbutton button {
+  width: 130px;
+  height: 35px;
+  border: 0;
+  border-radius: 20px;
+  font-weight: bolder;
+}
+.quicklinks {
+  margin-top: 38px;
+}
+.quicklinks span {
+  color: rgb(177, 174, 174);
+  font-size: 11px;
+  margin: 10px;
+  font-weight: 400;
+}
+.quicklinks button {
+  border: 0.1px solid rgba(255, 255, 255, 0.37);
+  border-radius: 20px;
+  width: 98px;
+  height: 33px;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
 .l2 {
   width: 23vw;
   height: 81vh;
@@ -42,7 +83,6 @@ body {
   margin: 7px;
   margin-bottom: 0px;
   border-radius: 8px;
-  
 }
 .plus {
   filter: invert(1);
@@ -80,13 +120,13 @@ body {
   margin-left: 30px;
   margin-bottom: 8px;
 }
-.nav{
-    border-bottom: 1px solid;
-    position: sticky;
-    top: 0;
-    z-index: 0;
+.nav {
+  border-bottom: 1px solid;
+  position: sticky;
+  top: 0;
+  z-index: 0;
 }
-.cards{
-    overflow: auto;
-    width: 100%;
+.cards {
+  overflow: auto;
+  width: 100%;
 }
